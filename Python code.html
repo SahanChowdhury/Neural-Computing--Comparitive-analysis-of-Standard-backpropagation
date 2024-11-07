@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7e3d203813b04e55b78c3950a33c8640</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="402af0d6" class="cell markdown">
+<h2 id="python-code">Python code</h2>
+</div>
+<div id="81b51588" class="cell markdown">
+<h4
+id="multilayer-perceptron-mlp-trained-with-standard-backward-propagation-on-rice-type-classification-dataset">Multilayer
+perceptron (mlp) trained with standard backward propagation on Rice type
+classification dataset</h4>
+</div>
+<div id="f8a4fb27" class="cell markdown">
+<h4
+id="the-aim-of-this-project-is-to-implement-and-compare-standard-backward-propagation-algorithm-in-both-matlab-and-python-and-to-train-a-single-hidden-layer-perceptron-on-the-rice-classification-dataset-this-is-the-python-implementation">The
+aim of this project is to implement and compare standard backward
+propagation algorithm in both Matlab and Python and to train a single
+hidden-layer perceptron on the Rice classification dataset. This is the
+python implementation.</h4>
+</div>
+<div id="ad7d31cf" class="cell markdown">
+<h4
+id="the-dataset-used-is-a-rice-classifcation-dataset-obtained-from-kaggle-httpswwwkagglecomdatasetsmssmartypantsrice-type-classification">The
+dataset used is a rice classifcation dataset obtained from kaggle <a
+href="https://www.kaggle.com/datasets/mssmartypants/rice-type-classification"
+class="uri">https://www.kaggle.com/datasets/mssmartypants/rice-type-classification</a></h4>
+</div>
+<div id="238f1264" class="cell code" data-execution_count="1270">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Importing nessesary libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time , timeit</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Allows to work with time and measuring code execution time</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Visualisation library</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Package for arrays and matrices and mathematical functions</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating visualisations</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Allows to load dataset </span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> itertools</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">#For combing elements</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">#Neural netowrk relates package</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.optim <span class="im">as</span> optim</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torchvision.transforms <span class="im">as</span> transforms</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.autograd <span class="im">import</span> Variable</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">#Neural netowrk relates package</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">#Generates random numbers</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co">#Function used to split datasets into train and test</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co">#For normalisation</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> boxcox</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co">#Computes Box-Cox transformation</span></span></code></pre></div>
+</div>
+<div id="dfadadef" class="cell code" data-execution_count="1271">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a> <span class="co">#Reproduciblity using the random module </span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>random.seed(<span class="dv">11111</span>)  </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Setting random seed for pytorch library</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>torch.manual_seed(<span class="dv">11111</span>) </span></code></pre></div>
+<div class="output execute_result" data-execution_count="1271">
+<pre><code>&lt;torch._C.Generator at 0x14525d730&gt;</code></pre>
+</div>
+</div>
+<div id="d8683b56" class="cell code" data-execution_count="1272">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Loading the data into a Pandas data frame called &#39;data&#39;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&quot;riceClassification.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div id="86849104" class="cell code" data-execution_count="1273">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Printing data types for the variables in the dataset to gain insight into structure and characterstics</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1273">
+<pre><code>id                   int64
+Area                 int64
+MajorAxisLength    float64
+MinorAxisLength    float64
+Eccentricity       float64
+ConvexArea           int64
+EquivDiameter      float64
+Extent             float64
+Perimeter          float64
+Roundness          float64
+AspectRation       float64
+Class                int64
+dtype: object</code></pre>
+</div>
+</div>
+<div id="d9704e6a" class="cell code" data-execution_count="1274">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Converting all the variables into float for consistency. Also float is more precise and is preffered for activation functions and normalisation later on.</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data.astype(<span class="st">&#39;float64&#39;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>data.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1274">
+<pre><code>id                 float64
+Area               float64
+MajorAxisLength    float64
+MinorAxisLength    float64
+Eccentricity       float64
+ConvexArea         float64
+EquivDiameter      float64
+Extent             float64
+Perimeter          float64
+Roundness          float64
+AspectRation       float64
+Class              float64
+dtype: object</code></pre>
+</div>
+</div>
+<div id="188444c7" class="cell code" data-execution_count="1275">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Displaying the data</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1275">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Area</th>
+      <th>MajorAxisLength</th>
+      <th>MinorAxisLength</th>
+      <th>Eccentricity</th>
+      <th>ConvexArea</th>
+      <th>EquivDiameter</th>
+      <th>Extent</th>
+      <th>Perimeter</th>
+      <th>Roundness</th>
+      <th>AspectRation</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>4537.0</td>
+      <td>92.229316</td>
+      <td>64.012769</td>
+      <td>0.719916</td>
+      <td>4677.0</td>
+      <td>76.004525</td>
+      <td>0.657536</td>
+      <td>273.085</td>
+      <td>0.764510</td>
+      <td>1.440796</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.0</td>
+      <td>2872.0</td>
+      <td>74.691881</td>
+      <td>51.400454</td>
+      <td>0.725553</td>
+      <td>3015.0</td>
+      <td>60.471018</td>
+      <td>0.713009</td>
+      <td>208.317</td>
+      <td>0.831658</td>
+      <td>1.453137</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.0</td>
+      <td>3048.0</td>
+      <td>76.293164</td>
+      <td>52.043491</td>
+      <td>0.731211</td>
+      <td>3132.0</td>
+      <td>62.296341</td>
+      <td>0.759153</td>
+      <td>210.012</td>
+      <td>0.868434</td>
+      <td>1.465950</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.0</td>
+      <td>3073.0</td>
+      <td>77.033628</td>
+      <td>51.928487</td>
+      <td>0.738639</td>
+      <td>3157.0</td>
+      <td>62.551300</td>
+      <td>0.783529</td>
+      <td>210.657</td>
+      <td>0.870203</td>
+      <td>1.483456</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5.0</td>
+      <td>3693.0</td>
+      <td>85.124785</td>
+      <td>56.374021</td>
+      <td>0.749282</td>
+      <td>3802.0</td>
+      <td>68.571668</td>
+      <td>0.769375</td>
+      <td>230.332</td>
+      <td>0.874743</td>
+      <td>1.510000</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>18180</th>
+      <td>18181.0</td>
+      <td>5853.0</td>
+      <td>148.624571</td>
+      <td>51.029281</td>
+      <td>0.939210</td>
+      <td>6008.0</td>
+      <td>86.326537</td>
+      <td>0.498594</td>
+      <td>332.960</td>
+      <td>0.663444</td>
+      <td>2.912535</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18181</th>
+      <td>18182.0</td>
+      <td>7585.0</td>
+      <td>169.593996</td>
+      <td>58.141659</td>
+      <td>0.939398</td>
+      <td>7806.0</td>
+      <td>98.272692</td>
+      <td>0.647461</td>
+      <td>385.506</td>
+      <td>0.641362</td>
+      <td>2.916910</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18182</th>
+      <td>18183.0</td>
+      <td>6365.0</td>
+      <td>154.777085</td>
+      <td>52.908085</td>
+      <td>0.939760</td>
+      <td>6531.0</td>
+      <td>90.023162</td>
+      <td>0.561287</td>
+      <td>342.253</td>
+      <td>0.682832</td>
+      <td>2.925396</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18183</th>
+      <td>18184.0</td>
+      <td>5960.0</td>
+      <td>151.397924</td>
+      <td>51.474600</td>
+      <td>0.940427</td>
+      <td>6189.0</td>
+      <td>87.112041</td>
+      <td>0.492399</td>
+      <td>343.371</td>
+      <td>0.635227</td>
+      <td>2.941216</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18184</th>
+      <td>18185.0</td>
+      <td>6134.0</td>
+      <td>153.081981</td>
+      <td>51.590606</td>
+      <td>0.941500</td>
+      <td>6283.0</td>
+      <td>88.374495</td>
+      <td>0.489975</td>
+      <td>338.613</td>
+      <td>0.672274</td>
+      <td>2.967245</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>18185 rows × 12 columns</p>
+</div>
+</div>
+</div>
+<div id="a04e7449" class="cell markdown">
+<p>There are 12 columns and 18185 entries of data.</p>
+</div>
+<div id="9cbc0631" class="cell code" data-execution_count="1276">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1276">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Area</th>
+      <th>MajorAxisLength</th>
+      <th>MinorAxisLength</th>
+      <th>Eccentricity</th>
+      <th>ConvexArea</th>
+      <th>EquivDiameter</th>
+      <th>Extent</th>
+      <th>Perimeter</th>
+      <th>Roundness</th>
+      <th>AspectRation</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+      <td>18185.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>9093.000000</td>
+      <td>7036.492989</td>
+      <td>151.680754</td>
+      <td>59.807851</td>
+      <td>0.915406</td>
+      <td>7225.817872</td>
+      <td>94.132952</td>
+      <td>0.616653</td>
+      <td>351.606949</td>
+      <td>0.707998</td>
+      <td>2.599081</td>
+      <td>0.549079</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>5249.701658</td>
+      <td>1467.197150</td>
+      <td>12.376402</td>
+      <td>10.061653</td>
+      <td>0.030575</td>
+      <td>1502.006571</td>
+      <td>9.906250</td>
+      <td>0.104389</td>
+      <td>29.500620</td>
+      <td>0.067310</td>
+      <td>0.434836</td>
+      <td>0.497599</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>2522.000000</td>
+      <td>74.133114</td>
+      <td>34.409894</td>
+      <td>0.676647</td>
+      <td>2579.000000</td>
+      <td>56.666658</td>
+      <td>0.383239</td>
+      <td>197.015000</td>
+      <td>0.174590</td>
+      <td>1.358128</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>4547.000000</td>
+      <td>5962.000000</td>
+      <td>145.675910</td>
+      <td>51.393151</td>
+      <td>0.891617</td>
+      <td>6125.000000</td>
+      <td>87.126656</td>
+      <td>0.538530</td>
+      <td>333.990000</td>
+      <td>0.650962</td>
+      <td>2.208527</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>9093.000000</td>
+      <td>6660.000000</td>
+      <td>153.883750</td>
+      <td>55.724288</td>
+      <td>0.923259</td>
+      <td>6843.000000</td>
+      <td>92.085696</td>
+      <td>0.601194</td>
+      <td>353.088000</td>
+      <td>0.701941</td>
+      <td>2.602966</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>13639.000000</td>
+      <td>8423.000000</td>
+      <td>160.056214</td>
+      <td>70.156593</td>
+      <td>0.941372</td>
+      <td>8645.000000</td>
+      <td>103.559146</td>
+      <td>0.695664</td>
+      <td>373.003000</td>
+      <td>0.769280</td>
+      <td>2.964101</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>18185.000000</td>
+      <td>10210.000000</td>
+      <td>183.211434</td>
+      <td>82.550762</td>
+      <td>0.966774</td>
+      <td>11008.000000</td>
+      <td>114.016559</td>
+      <td>0.886573</td>
+      <td>508.511000</td>
+      <td>0.904748</td>
+      <td>3.911845</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="3cbdb58f" class="cell markdown">
+<p>The range of values from the table above varies significantly among
+different variables, normalisation will be useful in this instance and
+will prevent feature dominance when training. Furthermore 'Area' and
+'ConvexArea' are greatly dispersed this can be seen by the high standard
+deviation.</p>
+</div>
+<div id="a593bd8c" class="cell markdown">
+<h3 id="data-preprocessing">Data Preprocessing</h3>
+</div>
+<div id="f094fd28" class="cell code" data-execution_count="1277">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Checking for missing values </span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Missing values </span><span class="ch">\n</span><span class="st">&#39;</span>, data.isnull().<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Missing values 
+ id                 0
+Area               0
+MajorAxisLength    0
+MinorAxisLength    0
+Eccentricity       0
+ConvexArea         0
+EquivDiameter      0
+Extent             0
+Perimeter          0
+Roundness          0
+AspectRation       0
+Class              0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="4daece18" class="cell markdown">
+<p>There is no missing values</p>
+</div>
+<div id="d25c1778" class="cell code" data-execution_count="1278">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating 2 lists one which includes all the features of the dataset and the other which contains the target variable</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> data.drop(columns<span class="op">=</span>[<span class="st">&#39;id&#39;</span>, <span class="st">&#39;Class&#39;</span>])</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the target variable</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> data[<span class="st">&#39;Class&#39;</span>]</span></code></pre></div>
+</div>
+<div id="3327a643" class="cell code" data-execution_count="1279">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Visualising distribution and outliers</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>sns.boxplot(features, orient<span class="op">=</span><span class="st">&#39;h&#39;</span>) </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Boxplot of Variables&#39;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/14e5faed5a8db8bb273013b770f7fee3a575c5e1.png" /></p>
+</div>
+</div>
+<div id="fa4f1617" class="cell code" data-execution_count="1280"
+data-scrolled="false">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Outlier detection</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>variable_thresholds <span class="op">=</span> {<span class="st">&#39;Area&#39;</span>:<span class="fl">3.5</span>,<span class="st">&#39;MajorAxisLength&#39;</span>: <span class="dv">6</span>,<span class="st">&#39;MinorAxisLength&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;Eccentricity&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;ConvexArea&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;EquivDiameter&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;Extent&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;Perimeter&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;Roundness&#39;</span>: <span class="fl">3.5</span>,<span class="st">&#39;AspectRation&#39;</span>: <span class="fl">3.5</span>}</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Setting a threshold score which will be used to view the outliers</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>outliers <span class="op">=</span> {}</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Empty list to store outliers </span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> var, threshold <span class="kw">in</span> variable_thresholds.items():</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">#For loop to loop through every outlier </span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    z_scores <span class="op">=</span> (data[var] <span class="op">-</span> np.mean(data[var])) <span class="op">/</span> np.std(data[var])</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Obtaining Z score</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    outliers[var] <span class="op">=</span> data[np.<span class="bu">abs</span>(z_scores) <span class="op">&gt;</span> threshold]</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> var, outlier_data <span class="kw">in</span> outliers.items():</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Outliers for &#39;</span><span class="sc">{</span>var<span class="sc">}</span><span class="ss">&#39;:&quot;</span>)</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(outlier_data)</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">#For every variable with an outlier it will be printed</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Outliers for &#39;Area&#39;:
+Empty DataFrame
+Columns: [id, Area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation, Class]
+Index: []
+Outliers for &#39;MajorAxisLength&#39;:
+      id    Area  MajorAxisLength  MinorAxisLength  Eccentricity  ConvexArea  \
+1    2.0  2872.0        74.691881        51.400454      0.725553      3015.0   
+2    3.0  3048.0        76.293164        52.043491      0.731211      3132.0   
+3    4.0  3073.0        77.033628        51.928487      0.738639      3157.0   
+5    6.0  2990.0        77.417073        50.954344      0.752861      3080.0   
+8    9.0  2629.0        74.133114        48.074144      0.761228      2790.0   
+10  11.0  2665.0        74.364021        48.053188      0.763178      2777.0   
+12  13.0  2805.0        77.047682        49.242678      0.769107      2950.0   
+24  25.0  2647.0        76.789043        45.529112      0.805268      2710.0   
+48  49.0  2522.0        77.090790        42.871879      0.831101      2579.0   
+
+    EquivDiameter    Extent  Perimeter  Roundness  AspectRation  Class  
+1       60.471018  0.713009    208.317   0.831658      1.453137    1.0  
+2       62.296341  0.759153    210.012   0.868434      1.465950    1.0  
+3       62.551300  0.783529    210.657   0.870203      1.483456    1.0  
+5       61.700780  0.584898    216.930   0.798439      1.519342    1.0  
+8       57.856260  0.640595    207.325   0.768594      1.542058    1.0  
+10      58.251038  0.596731    202.456   0.817045      1.547536    1.0  
+12      59.761500  0.603226    209.823   0.800639      1.564653    1.0  
+24      58.053984  0.598192    200.587   0.826720      1.686592    1.0  
+48      56.666658  0.598765    197.015   0.816500      1.798167    1.0  
+Outliers for &#39;MinorAxisLength&#39;:
+Empty DataFrame
+Columns: [id, Area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation, Class]
+Index: []
+Outliers for &#39;Eccentricity&#39;:
+          id    Area  MajorAxisLength  MinorAxisLength  Eccentricity  \
+0        1.0  4537.0        92.229316        64.012769      0.719916   
+1        2.0  2872.0        74.691881        51.400454      0.725553   
+2        3.0  3048.0        76.293164        52.043491      0.731211   
+3        4.0  3073.0        77.033628        51.928487      0.738639   
+4        5.0  3693.0        85.124785        56.374021      0.749282   
+...      ...     ...              ...              ...           ...   
+4266  4267.0  6167.0       116.748699        69.297257      0.804790   
+4281  4282.0  6449.0       119.162133        70.605556      0.805558   
+4299  4300.0  7425.0       128.698372        75.972556      0.807173   
+4309  4310.0  6141.0       117.555704        69.281418      0.807878   
+4318  4319.0  6651.0       121.972562        71.827605      0.808218   
+
+      ConvexArea  EquivDiameter    Extent  Perimeter  Roundness  AspectRation  \
+0         4677.0      76.004525  0.657536    273.085   0.764510      1.440796   
+1         3015.0      60.471018  0.713009    208.317   0.831658      1.453137   
+2         3132.0      62.296341  0.759153    210.012   0.868434      1.465950   
+3         3157.0      62.551300  0.783529    210.657   0.870203      1.483456   
+4         3802.0      68.571668  0.769375    230.332   0.874743      1.510000   
+...          ...            ...       ...        ...        ...           ...   
+4266      6285.0      88.611897  0.602835    302.402   0.847451      1.684752   
+4281      6749.0      90.615241  0.700674    340.807   0.697727      1.687716   
+4299      7650.0      97.230672  0.807416    338.728   0.813213      1.694011   
+4309      6421.0      88.424906  0.639355    310.231   0.801823      1.696785   
+4318      6970.0      92.023455  0.767837    323.925   0.796541      1.698129   
+
+      Class  
+0       1.0  
+1       1.0  
+2       1.0  
+3       1.0  
+4       1.0  
+...     ...  
+4266    0.0  
+4281    0.0  
+4299    0.0  
+4309    0.0  
+4318    0.0  
+
+[115 rows x 12 columns]
+Outliers for &#39;ConvexArea&#39;:
+Empty DataFrame
+Columns: [id, Area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation, Class]
+Index: []
+Outliers for &#39;EquivDiameter&#39;:
+        id    Area  MajorAxisLength  MinorAxisLength  Eccentricity  \
+8      9.0  2629.0        74.133114        48.074144      0.761228   
+10    11.0  2665.0        74.364021        48.053188      0.763178   
+24    25.0  2647.0        76.789043        45.529112      0.805268   
+48    49.0  2522.0        77.090790        42.871879      0.831101   
+237  238.0  2656.0        86.567816        39.906517      0.887408   
+
+     ConvexArea  EquivDiameter    Extent  Perimeter  Roundness  AspectRation  \
+8        2790.0      57.856260  0.640595    207.325   0.768594      1.542058   
+10       2777.0      58.251038  0.596731    202.456   0.817045      1.547536   
+24       2710.0      58.053984  0.598192    200.587   0.826720      1.686592   
+48       2579.0      56.666658  0.598765    197.015   0.816500      1.798167   
+237      2721.0      58.152594  0.695652    207.697   0.773709      2.169265   
+
+     Class  
+8      1.0  
+10     1.0  
+24     1.0  
+48     1.0  
+237    1.0  
+Outliers for &#39;Extent&#39;:
+Empty DataFrame
+Columns: [id, Area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation, Class]
+Index: []
+Outliers for &#39;Perimeter&#39;:
+            id     Area  MajorAxisLength  MinorAxisLength  Eccentricity  \
+1          2.0   2872.0        74.691881        51.400454      0.725553   
+2          3.0   3048.0        76.293164        52.043491      0.731211   
+3          4.0   3073.0        77.033628        51.928487      0.738639   
+4          5.0   3693.0        85.124785        56.374021      0.749282   
+5          6.0   2990.0        77.417073        50.954344      0.752861   
+...        ...      ...              ...              ...           ...   
+3869    3870.0   3112.0       107.815754        37.717439      0.936812   
+4149    4150.0   3176.0       110.320331        38.376971      0.937543   
+15744  15745.0  10015.0       170.862394        75.613643      0.896748   
+17553  17554.0   6908.0       152.113528        64.189376      0.906604   
+18065  18066.0   6303.0       143.550166        57.109851      0.917455   
+
+       ConvexArea  EquivDiameter    Extent  Perimeter  Roundness  \
+1          3015.0      60.471018  0.713009    208.317   0.831658   
+2          3132.0      62.296341  0.759153    210.012   0.868434   
+3          3157.0      62.551300  0.783529    210.657   0.870203   
+4          3802.0      68.571668  0.769375    230.332   0.874743   
+5          3080.0      61.700780  0.584898    216.930   0.798439   
+...           ...            ...       ...        ...        ...   
+3869       3242.0      62.946973  0.733962    240.488   0.676180   
+4149       3332.0      63.590949  0.456322    243.926   0.670771   
+15744     10522.0     112.922513  0.541351    467.279   0.576379   
+17553      7821.0      93.784534  0.528700    476.522   0.382293   
+18065      6963.0      89.583642  0.616491    459.759   0.374711   
+
+       AspectRation  Class  
+1          1.453137    1.0  
+2          1.465950    1.0  
+3          1.483456    1.0  
+4          1.510000    1.0  
+5          1.519342    1.0  
+...             ...    ...  
+3869       2.858512    1.0  
+4149       2.874649    1.0  
+15744      2.259677    0.0  
+17553      2.369762    0.0  
+18065      2.513580    0.0  
+
+[108 rows x 12 columns]
+Outliers for &#39;Roundness&#39;:
+            id    Area  MajorAxisLength  MinorAxisLength  Eccentricity  \
+172      173.0  3320.0       104.957985        50.875027      0.874670   
+295      296.0  4179.0       118.582300        52.066166      0.898452   
+326      327.0  4491.0       123.037093        52.897323      0.902862   
+2407    2408.0  5476.0       142.169713        51.489479      0.932112   
+4340    4341.0  5302.0       140.715946        48.743301      0.938089   
+4525    4526.0  6518.0       157.358410        54.285262      0.938611   
+9318    9319.0  6368.0       164.517923        51.019845      0.950698   
+9589    9590.0  5592.0       154.177777        47.329105      0.951717   
+10609  10610.0  5335.0       158.877815        46.388546      0.956426   
+10896  10897.0  4620.0       153.288068        43.598410      0.958699   
+11166  11167.0  4434.0       150.442219        41.478578      0.961241   
+17553  17554.0  6908.0       152.113528        64.189376      0.906604   
+18014  18015.0  6706.0       146.533085        59.151624      0.914903   
+18065  18066.0  6303.0       143.550166        57.109851      0.917455   
+
+       ConvexArea  EquivDiameter    Extent  Perimeter  Roundness  \
+172        4375.0      65.016577  0.409927    488.837   0.174590   
+295        5019.0      72.944281  0.418947    448.305   0.261297   
+326        5426.0      75.618244  0.535983    434.235   0.299298   
+2407       6178.0      83.500058  0.517287    508.511   0.266117   
+4340       5673.0      82.162741  0.631190    396.837   0.423083   
+4525       7170.0      91.098712  0.511216    433.176   0.436511   
+9318       6889.0      90.044375  0.681945    435.715   0.421510   
+9589       6215.0      84.379829  0.602911    394.123   0.452390   
+10609      6206.0      82.418038  0.527330    428.305   0.365458   
+10896      5603.0      76.696589  0.500325    442.959   0.295886   
+11166      5661.0      75.136836  0.421964    421.126   0.314182   
+17553      7821.0      93.784534  0.528700    476.522   0.382293   
+18014      7064.0      92.403162  0.602949    424.130   0.468463   
+18065      6963.0      89.583642  0.616491    459.759   0.374711   
+
+       AspectRation  Class  
+172        2.063055    1.0  
+295        2.277531    1.0  
+326        2.325961    1.0  
+2407       2.761141    1.0  
+4340       2.886878    1.0  
+4525       2.898732    1.0  
+9318       3.224587    1.0  
+9589       3.257568    1.0  
+10609      3.424936    1.0  
+10896      3.515910    1.0  
+11166      3.626986    1.0  
+17553      2.369762    0.0  
+18014      2.477245    0.0  
+18065      2.513580    0.0  
+Outliers for &#39;AspectRation&#39;:
+Empty DataFrame
+Columns: [id, Area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation, Class]
+Index: []
+</code></pre>
+</div>
+</div>
+<div id="275f787b" class="cell code">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div id="13d2bf8a" class="cell code" data-execution_count="1281">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating histograms </span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">10</span>))</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">#This line of code creates figure and axes using matplotlib, the figure size has also been set</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>data.hist(ax<span class="op">=</span>ax)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co">#This line plots histogram for each variable in the pandas dataframe</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/qx/yygks_tn4_32lm3xlq53x1pc0000gn/T/ipykernel_70683/1177796231.py:4: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared.
+  data.hist(ax=ax)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/d1816db377d677e1695bedb0f6f543aaa669c328.png" /></p>
+</div>
+</div>
+<div id="1fe1cdca" class="cell code" data-execution_count="1282">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Obtaining the different classes (target variable)</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>rice_types <span class="op">=</span> data[<span class="st">&#39;Class&#39;</span>].unique()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>rice_types</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1282">
+<pre><code>array([1., 0.])</code></pre>
+</div>
+</div>
+<div id="cbdb648d" class="cell markdown">
+<p>The two classes within the data is '0' and '1' corresponding to
+Jasmine and Gonen</p>
+</div>
+<div id="b6a5cd03" class="cell code" data-execution_count="1283">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the pie chart to visualise class dominance</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plt.pie(data[<span class="st">&#39;Class&#39;</span>].value_counts(), labels<span class="op">=</span>data[<span class="st">&#39;Class&#39;</span>].value_counts().index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Dominance of Different Rice Types&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/4d4d99749b6ea8b598dd3cce5b8641d859ee7498.png" /></p>
+</div>
+</div>
+<div id="e2faca93" class="cell code" data-execution_count="1284">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Class 1 is&quot;</span>,<span class="fl">54.9</span><span class="op">/</span><span class="fl">45.1</span>,<span class="st">&#39;Greater than class 0&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Class 1 is 1.2172949002217295 Greater than class 0
+</code></pre>
+</div>
+</div>
+<div id="a07c9d90" class="cell code" data-execution_count="1285">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating an list to store column variables which normalisation and box-cox will be applied</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>numerical_features <span class="op">=</span> [<span class="st">&#39;Area&#39;</span>, <span class="st">&#39;MajorAxisLength&#39;</span>, <span class="st">&#39;MinorAxisLength&#39;</span>, <span class="st">&#39;Eccentricity&#39;</span>, </span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>                      <span class="st">&#39;ConvexArea&#39;</span>, <span class="st">&#39;EquivDiameter&#39;</span>, <span class="st">&#39;Extent&#39;</span>, <span class="st">&#39;Perimeter&#39;</span>, </span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>                      <span class="st">&#39;Roundness&#39;</span>, <span class="st">&#39;AspectRation&#39;</span>]</span></code></pre></div>
+</div>
+<div id="a38c63b6" class="cell code" data-execution_count="1286">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a copy of the data called &#39;rice_data&#39; to alter the data </span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>rice_data <span class="op">=</span> data.copy()</span></code></pre></div>
+</div>
+<div id="221c03f9" class="cell code" data-execution_count="1287">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Min-Max scaling </span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Reference [1]: https://www.geeksforgeeks.org/normalize-a-column-in-pandas/</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Min-Max scaling to each column</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> numerical_features:</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    rice_data[column] <span class="op">=</span> (rice_data[column] <span class="op">-</span> rice_data[column].<span class="bu">min</span>()) <span class="op">/</span> (rice_data[column].<span class="bu">max</span>() <span class="op">-</span> rice_data[column].<span class="bu">min</span>())</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the normalized data</span></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>rice_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1287">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Area</th>
+      <th>MajorAxisLength</th>
+      <th>MinorAxisLength</th>
+      <th>Eccentricity</th>
+      <th>ConvexArea</th>
+      <th>EquivDiameter</th>
+      <th>Extent</th>
+      <th>Perimeter</th>
+      <th>Roundness</th>
+      <th>AspectRation</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>0.262097</td>
+      <td>0.165901</td>
+      <td>0.614922</td>
+      <td>0.149139</td>
+      <td>0.248903</td>
+      <td>0.337191</td>
+      <td>0.544960</td>
+      <td>0.244209</td>
+      <td>0.807934</td>
+      <td>0.032371</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.0</td>
+      <td>0.045525</td>
+      <td>0.005123</td>
+      <td>0.352934</td>
+      <td>0.168567</td>
+      <td>0.051726</td>
+      <td>0.066336</td>
+      <td>0.655171</td>
+      <td>0.036283</td>
+      <td>0.899898</td>
+      <td>0.037204</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.0</td>
+      <td>0.068418</td>
+      <td>0.019803</td>
+      <td>0.366292</td>
+      <td>0.188069</td>
+      <td>0.065607</td>
+      <td>0.098164</td>
+      <td>0.746848</td>
+      <td>0.041724</td>
+      <td>0.950265</td>
+      <td>0.042222</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.0</td>
+      <td>0.071670</td>
+      <td>0.026591</td>
+      <td>0.363903</td>
+      <td>0.213671</td>
+      <td>0.068573</td>
+      <td>0.102609</td>
+      <td>0.795277</td>
+      <td>0.043795</td>
+      <td>0.952688</td>
+      <td>0.049077</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5.0</td>
+      <td>0.152315</td>
+      <td>0.100769</td>
+      <td>0.456247</td>
+      <td>0.250355</td>
+      <td>0.145094</td>
+      <td>0.207586</td>
+      <td>0.767156</td>
+      <td>0.106958</td>
+      <td>0.958906</td>
+      <td>0.059471</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>18180</th>
+      <td>18181.0</td>
+      <td>0.433273</td>
+      <td>0.682917</td>
+      <td>0.345224</td>
+      <td>0.904994</td>
+      <td>0.406810</td>
+      <td>0.517174</td>
+      <td>0.229182</td>
+      <td>0.436426</td>
+      <td>0.669518</td>
+      <td>0.608684</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18181</th>
+      <td>18182.0</td>
+      <td>0.658559</td>
+      <td>0.875159</td>
+      <td>0.492965</td>
+      <td>0.905642</td>
+      <td>0.620121</td>
+      <td>0.725477</td>
+      <td>0.524943</td>
+      <td>0.605115</td>
+      <td>0.639275</td>
+      <td>0.610397</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18182</th>
+      <td>18183.0</td>
+      <td>0.499870</td>
+      <td>0.739322</td>
+      <td>0.384251</td>
+      <td>0.906891</td>
+      <td>0.468858</td>
+      <td>0.581631</td>
+      <td>0.353738</td>
+      <td>0.466260</td>
+      <td>0.696071</td>
+      <td>0.613720</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18183</th>
+      <td>18184.0</td>
+      <td>0.447190</td>
+      <td>0.708342</td>
+      <td>0.354474</td>
+      <td>0.909189</td>
+      <td>0.428283</td>
+      <td>0.530871</td>
+      <td>0.216874</td>
+      <td>0.469849</td>
+      <td>0.630873</td>
+      <td>0.619915</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18184</th>
+      <td>18185.0</td>
+      <td>0.469823</td>
+      <td>0.723781</td>
+      <td>0.356884</td>
+      <td>0.912888</td>
+      <td>0.439435</td>
+      <td>0.552884</td>
+      <td>0.212058</td>
+      <td>0.454574</td>
+      <td>0.681611</td>
+      <td>0.630108</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>18185 rows × 12 columns</p>
+</div>
+</div>
+</div>
+<div id="ea469a97" class="cell code" data-execution_count="1288">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Box_cox transformation</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> numerical_features:</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    rice_data[column], _ <span class="op">=</span> boxcox(rice_data[column]<span class="op">+</span><span class="dv">1</span> )  </span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding 1 to handle zero values</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the transformed data</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>rice_data</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="1288">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>Area</th>
+      <th>MajorAxisLength</th>
+      <th>MinorAxisLength</th>
+      <th>Eccentricity</th>
+      <th>ConvexArea</th>
+      <th>EquivDiameter</th>
+      <th>Extent</th>
+      <th>Perimeter</th>
+      <th>Roundness</th>
+      <th>AspectRation</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>0.235349</td>
+      <td>0.259672</td>
+      <td>0.435717</td>
+      <td>0.217844</td>
+      <td>0.222958</td>
+      <td>0.333659</td>
+      <td>0.420235</td>
+      <td>0.336502</td>
+      <td>1.284722</td>
+      <td>0.031770</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.0</td>
+      <td>0.044613</td>
+      <td>0.005193</td>
+      <td>0.284538</td>
+      <td>0.258711</td>
+      <td>0.050468</td>
+      <td>0.066187</td>
+      <td>0.484165</td>
+      <td>0.038100</td>
+      <td>1.496068</td>
+      <td>0.036412</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.0</td>
+      <td>0.066386</td>
+      <td>0.020880</td>
+      <td>0.293216</td>
+      <td>0.303331</td>
+      <td>0.063601</td>
+      <td>0.097841</td>
+      <td>0.533692</td>
+      <td>0.044134</td>
+      <td>1.617841</td>
+      <td>0.041205</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.0</td>
+      <td>0.069445</td>
+      <td>0.028553</td>
+      <td>0.291672</td>
+      <td>0.367790</td>
+      <td>0.066385</td>
+      <td>0.102258</td>
+      <td>0.558653</td>
+      <td>0.046453</td>
+      <td>1.623808</td>
+      <td>0.047710</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5.0</td>
+      <td>0.142725</td>
+      <td>0.132184</td>
+      <td>0.348702</td>
+      <td>0.472917</td>
+      <td>0.135744</td>
+      <td>0.206193</td>
+      <td>0.544256</td>
+      <td>0.123383</td>
+      <td>1.639166</td>
+      <td>0.057479</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>18180</th>
+      <td>18181.0</td>
+      <td>0.366141</td>
+      <td>4.119855</td>
+      <td>0.279475</td>
+      <td>7.963067</td>
+      <td>0.342959</td>
+      <td>0.509272</td>
+      <td>0.202987</td>
+      <td>0.762580</td>
+      <td>0.992950</td>
+      <td>0.456196</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18181</th>
+      <td>18182.0</td>
+      <td>0.518217</td>
+      <td>8.334792</td>
+      <td>0.369987</td>
+      <td>7.979798</td>
+      <td>0.485772</td>
+      <td>0.710730</td>
+      <td>0.408056</td>
+      <td>1.287912</td>
+      <td>0.933339</td>
+      <td>0.457175</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18182</th>
+      <td>18183.0</td>
+      <td>0.413229</td>
+      <td>5.114251</td>
+      <td>0.304697</td>
+      <td>8.012104</td>
+      <td>0.386560</td>
+      <td>0.571805</td>
+      <td>0.295663</td>
+      <td>0.844273</td>
+      <td>1.046502</td>
+      <td>0.459071</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18183</th>
+      <td>18184.0</td>
+      <td>0.376143</td>
+      <td>4.546493</td>
+      <td>0.285545</td>
+      <td>8.071838</td>
+      <td>0.358257</td>
+      <td>0.522575</td>
+      <td>0.193241</td>
+      <td>0.854409</td>
+      <td>0.917037</td>
+      <td>0.462594</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>18184</th>
+      <td>18185.0</td>
+      <td>0.392224</td>
+      <td>4.822635</td>
+      <td>0.287117</td>
+      <td>8.168721</td>
+      <td>0.366113</td>
+      <td>0.543938</td>
+      <td>0.189397</td>
+      <td>0.811733</td>
+      <td>1.017199</td>
+      <td>0.468356</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>18185 rows × 12 columns</p>
+</div>
+</div>
+</div>
+<div id="fc4daeaf" class="cell code">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div id="6ae61483" class="cell markdown">
+<h3 id="neural-network">Neural Network</h3>
+</div>
+<div id="9508ee11" class="cell code" data-execution_count="1289">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Splitting the data </span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract feature columns (excluding &#39;Class&#39; and &#39;id&#39;) and target column (&#39;Class&#39;)</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> rice_data.drop(columns<span class="op">=</span>[<span class="st">&#39;Class&#39;</span>, <span class="st">&#39;id&#39;</span>]).values  </span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Removing &#39;Class&#39; and &#39;ID&#39; from features column </span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> rice_data[<span class="st">&#39;Class&#39;</span>].values  </span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="co"># the target column will only contain &#39;Class&#39;</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets with a 70-30 ratio holdout </span></span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> torch.tensor(X_train, dtype<span class="op">=</span>torch.float32)  </span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> torch.tensor(y_train, dtype<span class="op">=</span>torch.float32)  </span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert numpy arrays to Pytorch tensor (as floats)</span></span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> torch.tensor(X_test, dtype<span class="op">=</span>torch.float32) </span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> torch.tensor(y_test, dtype<span class="op">=</span>torch.float32)  </span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert numpy arrays to Pytorch tensor (as floats)</span></span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a><span class="co">#Displaying the shape of the new splitted datasets</span></span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of X_train:&quot;</span>, X_train.shape) </span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of y_train:&quot;</span>, y_train.shape)  </span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of X_test:&quot;</span>, X_test.shape)    </span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of y_test:&quot;</span>, y_test.shape)    </span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Shape of X_train: torch.Size([12729, 10])
+Shape of y_train: torch.Size([12729])
+Shape of X_test: torch.Size([5456, 10])
+Shape of y_test: torch.Size([5456])
+</code></pre>
+</div>
+</div>
+<div id="b798c13d" class="cell code" data-execution_count="1290">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Reproduciblity using the random module </span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>random.seed(<span class="dv">11111</span>)  </span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Setting random seed for pytorch library</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>torch.manual_seed(<span class="dv">11111</span>) </span></code></pre></div>
+<div class="output execute_result" data-execution_count="1290">
+<pre><code>&lt;torch._C.Generator at 0x14525d730&gt;</code></pre>
+</div>
+</div>
+<div id="2b30d4ba" class="cell code" data-execution_count="1291">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Reference [3]: Lab2 Jupyter notebook</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Defining the neural netowork</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> RiceNN(nn.Module):</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Using Pytorch to define RiceNN as the neural network</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, hidden_size):</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Defining the method to create the neural network and takes &#39;hidden size&#39; which represents number of neurons</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(RiceNN, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Ensures nessesary initialisation is done for the neural network</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(<span class="dv">10</span>, hidden_size)  </span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># First layer is created; input size is 10 (number of features), hidden_size is the number of neurons in the hidden layer</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hidden_size, <span class="dv">1</span>)  </span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Second layer is created: hidden size is the input layer and 1 is the output</span></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sigmoid <span class="op">=</span> nn.Sigmoid()</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Sigmoid activation function </span></span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Defining the forward pass, and defined how &#39;x&#39; should propagate </span></span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>        hidden <span class="op">=</span> <span class="va">self</span>.fc1(x)</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Output of the first layer (hidden layer) is computed. Linear transformation is applied on &#39;x&#39;</span></span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>        hidden <span class="op">=</span> <span class="va">self</span>.sigmoid(hidden)</span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Sigoid activation function to the first layer</span></span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>        output <span class="op">=</span> <span class="va">self</span>.fc2(hidden)</span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Output of the second layer (output layer) and linear transformation is applied to hidden layer&#39;s output </span></span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>        output <span class="op">=</span> <span class="va">self</span>.sigmoid(output) </span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>        <span class="co"># sigmoid to the output</span></span>
+<span id="cb34-26"><a href="#cb34-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> output</span>
+<span id="cb34-27"><a href="#cb34-27" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Final output </span></span>
+<span id="cb34-28"><a href="#cb34-28" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div id="cb8cce7e" class="cell code" data-execution_count="1292">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Defining the hyperparameters</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>learning_rates <span class="op">=</span> [<span class="fl">0.01</span>, <span class="fl">0.1</span>, <span class="fl">0.3</span>]</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co">#list of different learning rates that will be tested</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>hidden_sizes <span class="op">=</span> [<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>]</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="co">#List of different hidden number of neurons that will be tested</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>num_epochs <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Number of iterations </span></span></code></pre></div>
+</div>
+<div id="c11c0c28" class="cell code" data-execution_count="1293">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">#list to store test accuracies and training times for different hyper parameter combinations</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>test_accuracies <span class="op">=</span> []</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>training_times <span class="op">=</span> []</span></code></pre></div>
+</div>
+<div id="8b49d272" class="cell code" data-execution_count="1294"
+data-scrolled="false">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Model training along hyperparameter</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Nested for loop</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lr <span class="kw">in</span> learning_rates:</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Using For loop to loop over the learning rates </span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> hidden_size <span class="kw">in</span> hidden_sizes:</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Within a for loop use another for loop, to loop over different number of neurons this creates hyperparameter combination</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Reference [3]: Lab2 JPYN</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>        model <span class="op">=</span> RiceNN(hidden_size)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Defining the loss function and optimizer</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>        criterion <span class="op">=</span> torch.nn.BCEWithLogitsLoss()  </span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Binary Cross Entropy Losssince this is a binary classification task</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>        optimizer <span class="op">=</span> torch.optim.SGD(model.parameters(), lr<span class="op">=</span>lr)  </span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Stochastic Gradient Descent optimizer set to be used to train the neural network</span></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Start measuring training time</span></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>        start_time <span class="op">=</span> time.time()</span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Training the model for set number of epochs which was set to 10</span></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Reference [3]: Lab2 JPYN</span></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(num_epochs):</span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a>        <span class="co">#For loop to loop over epochs (iterations)</span></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>            outputs <span class="op">=</span> model(X_train)</span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Forward pass - predicts outputs </span></span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> criterion(outputs.squeeze(), y_train)</span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Calculates loss which is the difference between predicted outputs and target values</span></span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a>            optimizer.zero_grad()</span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Gradients are cleared of optimized parameters and also to prevent gradient accumulation </span></span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a>            loss.backward()</span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Calculates gradients loss (using backpropagation)</span></span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a>            optimizer.step()</span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Updates model parameters from computed gradients and chosen optimization algorithm </span></span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&#39;Epoch [</span><span class="sc">{</span>epoch<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>num_epochs<span class="sc">}</span><span class="ss">], Loss: </span><span class="sc">{</span>loss<span class="sc">.</span>item()<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Print current epoch number and corresponding loss value </span></span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Measure training time</span></span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a>        end_time <span class="op">=</span> time.time()</span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Notes the end time (Time till training is complete)</span></span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a>        training_time <span class="op">=</span> end_time <span class="op">-</span> start_time</span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Computes training time </span></span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a>        training_times.append(training_time)</span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Training times are added to a list for every hyperparameter combination</span></span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Model Evaluation </span></span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a>        model.<span class="bu">eval</span>()</span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a>        <span class="co">#setting to evaluation </span></span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> torch.no_grad():</span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a>        <span class="co">#Disabling gradient calculation </span></span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a>            y_pred_probs <span class="op">=</span> model(X_test)</span>
+<span id="cb37-53"><a href="#cb37-53" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Probability on test set</span></span>
+<span id="cb37-54"><a href="#cb37-54" aria-hidden="true" tabindex="-1"></a>            y_pred <span class="op">=</span> (y_pred_probs <span class="op">&gt;=</span> <span class="fl">0.5</span>).<span class="bu">float</span>()</span>
+<span id="cb37-55"><a href="#cb37-55" aria-hidden="true" tabindex="-1"></a>          </span>
+<span id="cb37-56"><a href="#cb37-56" aria-hidden="true" tabindex="-1"></a>            accuracy <span class="op">=</span> (y_pred <span class="op">==</span> y_test).<span class="bu">float</span>().mean()</span>
+<span id="cb37-57"><a href="#cb37-57" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Calculate mean accuracy by comparing predicted to test values</span></span>
+<span id="cb37-58"><a href="#cb37-58" aria-hidden="true" tabindex="-1"></a>            test_accuracies.append(accuracy.item())</span>
+<span id="cb37-59"><a href="#cb37-59" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Accuracies are stored in the list </span></span>
+<span id="cb37-60"><a href="#cb37-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-61"><a href="#cb37-61" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&#39;Learning Rate: </span><span class="sc">{</span>lr<span class="sc">}</span><span class="ss">, Hidden Size: </span><span class="sc">{</span>hidden_size<span class="sc">}</span><span class="ss">, Test Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">.</span>item()<span class="sc">}</span><span class="ss">, Training Time: </span><span class="sc">{</span>training_time<span class="sc">}</span><span class="ss"> seconds&#39;</span>)</span>
+<span id="cb37-62"><a href="#cb37-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-63"><a href="#cb37-63" aria-hidden="true" tabindex="-1"></a>            <span class="co">#Learning rate, hidden size (number of neurons), test accuracy and training times are printed</span></span>
+<span id="cb37-64"><a href="#cb37-64" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch [1/10], Loss: 0.7082937955856323
+Epoch [2/10], Loss: 0.7082595825195312
+Epoch [3/10], Loss: 0.7082253694534302
+Epoch [4/10], Loss: 0.7081912755966187
+Epoch [5/10], Loss: 0.7081571221351624
+Epoch [6/10], Loss: 0.7081227898597717
+Epoch [7/10], Loss: 0.7080888152122498
+Epoch [8/10], Loss: 0.7080546617507935
+Epoch [9/10], Loss: 0.7080205678939819
+Epoch [10/10], Loss: 0.7079864740371704
+Learning Rate: 0.01, Hidden Size: 10, Test Accuracy: 0.5515029430389404, Training Time: 0.1756291389465332 seconds
+Epoch [1/10], Loss: 0.7059923410415649
+Epoch [2/10], Loss: 0.7059476375579834
+Epoch [3/10], Loss: 0.7059031128883362
+Epoch [4/10], Loss: 0.7058584094047546
+Epoch [5/10], Loss: 0.7058139443397522
+Epoch [6/10], Loss: 0.7057693600654602
+Epoch [7/10], Loss: 0.7057249546051025
+Epoch [8/10], Loss: 0.7056805491447449
+Epoch [9/10], Loss: 0.705636203289032
+Epoch [10/10], Loss: 0.7055918574333191
+Learning Rate: 0.01, Hidden Size: 20, Test Accuracy: 0.5515029430389404, Training Time: 0.10247397422790527 seconds
+Epoch [1/10], Loss: 0.6951398849487305
+Epoch [2/10], Loss: 0.6950762271881104
+Epoch [3/10], Loss: 0.6950124502182007
+Epoch [4/10], Loss: 0.6949488520622253
+Epoch [5/10], Loss: 0.6948854923248291
+Epoch [6/10], Loss: 0.6948222517967224
+Epoch [7/10], Loss: 0.6947590708732605
+Epoch [8/10], Loss: 0.6946960687637329
+Epoch [9/10], Loss: 0.6946331262588501
+Epoch [10/10], Loss: 0.6945703625679016
+Learning Rate: 0.01, Hidden Size: 30, Test Accuracy: 0.5499359369277954, Training Time: 0.07400226593017578 seconds
+Epoch [1/10], Loss: 0.6969282627105713
+Epoch [2/10], Loss: 0.6966835260391235
+Epoch [3/10], Loss: 0.6964415311813354
+Epoch [4/10], Loss: 0.6962019801139832
+Epoch [5/10], Loss: 0.6959649324417114
+Epoch [6/10], Loss: 0.695730447769165
+Epoch [7/10], Loss: 0.6954982876777649
+Epoch [8/10], Loss: 0.6952686905860901
+Epoch [9/10], Loss: 0.6950415372848511
+Epoch [10/10], Loss: 0.6948167681694031
+Learning Rate: 0.1, Hidden Size: 10, Test Accuracy: 0.4553125202655792, Training Time: 0.05556678771972656 seconds
+Epoch [1/10], Loss: 0.6915736794471741
+Epoch [2/10], Loss: 0.6913411021232605
+Epoch [3/10], Loss: 0.6911126375198364
+Epoch [4/10], Loss: 0.6908882260322571
+Epoch [5/10], Loss: 0.6906676888465881
+Epoch [6/10], Loss: 0.6904509663581848
+Epoch [7/10], Loss: 0.6902379393577576
+Epoch [8/10], Loss: 0.6900283694267273
+Epoch [9/10], Loss: 0.6898223161697388
+Epoch [10/10], Loss: 0.689619779586792
+Learning Rate: 0.1, Hidden Size: 20, Test Accuracy: 0.44849705696105957, Training Time: 0.06010699272155762 seconds
+Epoch [1/10], Loss: 0.7073541879653931
+Epoch [2/10], Loss: 0.7067837715148926
+Epoch [3/10], Loss: 0.7062236070632935
+Epoch [4/10], Loss: 0.70567387342453
+Epoch [5/10], Loss: 0.7051345109939575
+Epoch [6/10], Loss: 0.704605758190155
+Epoch [7/10], Loss: 0.7040876746177673
+Epoch [8/10], Loss: 0.7035800814628601
+Epoch [9/10], Loss: 0.7030830383300781
+Epoch [10/10], Loss: 0.7025965452194214
+Learning Rate: 0.1, Hidden Size: 30, Test Accuracy: 0.5512385964393616, Training Time: 0.10734200477600098 seconds
+Epoch [1/10], Loss: 0.6930356025695801
+Epoch [2/10], Loss: 0.6925719380378723
+Epoch [3/10], Loss: 0.6921147704124451
+Epoch [4/10], Loss: 0.6916640996932983
+Epoch [5/10], Loss: 0.6912195682525635
+Epoch [6/10], Loss: 0.6907809972763062
+Epoch [7/10], Loss: 0.6903479099273682
+Epoch [8/10], Loss: 0.68992018699646
+Epoch [9/10], Loss: 0.6894974708557129
+Epoch [10/10], Loss: 0.6890795230865479
+Learning Rate: 0.3, Hidden Size: 10, Test Accuracy: 0.44849705696105957, Training Time: 0.03900790214538574 seconds
+Epoch [1/10], Loss: 0.7147106528282166
+Epoch [2/10], Loss: 0.7130998373031616
+Epoch [3/10], Loss: 0.7115498781204224
+Epoch [4/10], Loss: 0.7100678086280823
+Epoch [5/10], Loss: 0.708658754825592
+Epoch [6/10], Loss: 0.7073258757591248
+Epoch [7/10], Loss: 0.7060707807540894
+Epoch [8/10], Loss: 0.7048934102058411
+Epoch [9/10], Loss: 0.7037923336029053
+Epoch [10/10], Loss: 0.7027649283409119
+Learning Rate: 0.3, Hidden Size: 20, Test Accuracy: 0.44849705696105957, Training Time: 0.049552202224731445 seconds
+Epoch [1/10], Loss: 0.7040281295776367
+Epoch [2/10], Loss: 0.7019999027252197
+Epoch [3/10], Loss: 0.7000691890716553
+Epoch [4/10], Loss: 0.6982405781745911
+Epoch [5/10], Loss: 0.6965161561965942
+Epoch [6/10], Loss: 0.6948949098587036
+Epoch [7/10], Loss: 0.69337397813797
+Epoch [8/10], Loss: 0.6919481754302979
+Epoch [9/10], Loss: 0.6906120777130127
+Epoch [10/10], Loss: 0.6893587112426758
+Learning Rate: 0.3, Hidden Size: 30, Test Accuracy: 0.44849705696105957, Training Time: 0.05874776840209961 seconds
+</code></pre>
+</div>
+</div>
+<div id="c6d25bbe" class="cell code">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div id="5fd0a944" class="cell code" data-execution_count="1295">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ROC curve</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Reference [4]: https://towardsdatascience.com/interpreting-roc-curve-and-roc-auc-for-classification-evaluation-28ec3983f077</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>fpr, tpr, thresholds <span class="op">=</span> roc_curve(y_test, y_pred_probs)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="co">#True postive and false positive rates are calculated</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>auc <span class="op">=</span> roc_auc_score(y_test, y_pred_probs)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Area under the curve is calculated</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot ROC curve</span></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>fpr, y<span class="op">=</span>tpr)  </span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span>fpr, y<span class="op">=</span>tpr)      </span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;False Positive Rate&quot;</span>)</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;True Positive Rate&quot;</span>)</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;ROC Curve&quot;</span>)</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>auc</span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a><span class="co">#Display area under the curve</span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/2193a1badc2305f576ab5b7ee25cd17a346df601.png" /></p>
+</div>
+<div class="output execute_result" data-execution_count="1295">
+<pre><code>0.9708054694382999</code></pre>
+</div>
+</div>
+<div id="3d1459ad" class="cell code" data-execution_count="1296">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Training times</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Reference: https://stackoverflow.com/questions/3034014/how-to-apply-itertools-product-to-elements-of-a-list-of-lists</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of all hyperparameter combinations using the itertool module</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>hyperparameter_combinations <span class="op">=</span> <span class="bu">list</span>(itertools.product(learning_rates, hidden_sizes))</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>plt.plot(training_times,marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Hyperparameter Combination&#39;</span>)</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Training Time (seconds)&#39;</span>)</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Training Speeds for Different Hyperparameter Combinations&#39;</span>)</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(hyperparameter_combinations)), [<span class="ss">f&#39;LR=</span><span class="sc">{</span>lr<span class="sc">}</span><span class="ss">, Hidden=</span><span class="sc">{</span>hidden<span class="sc">}</span><span class="ss">&#39;</span> <span class="cf">for</span> lr, hidden <span class="kw">in</span> hyperparameter_combinations], rotation<span class="op">=</span><span class="dv">45</span>, ha<span class="op">=</span><span class="st">&#39;right&#39;</span>)</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Each &#39;X&#39; value is is set and corresponding hyper paramaters are stated</span></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/5e25a567266bb03b9e63a92b6be584582f76a806.png" /></p>
+</div>
+</div>
+<div id="e765610f" class="cell code" data-execution_count="1297">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#test accuracies</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>plt.plot(test_accuracies, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Hyperparameter Combination&#39;</span>)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Test Accuracy&#39;</span>)</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Test Accuracies for Different Hyperparameter Combinations&#39;</span>)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(hyperparameter_combinations)), [<span class="ss">f&#39;LR=</span><span class="sc">{</span>lr<span class="sc">}</span><span class="ss">, Hidden=</span><span class="sc">{</span>hidden<span class="sc">}</span><span class="ss">&#39;</span> <span class="cf">for</span> lr, hidden <span class="kw">in</span> hyperparameter_combinations], rotation<span class="op">=</span><span class="dv">45</span>, ha<span class="op">=</span><span class="st">&#39;right&#39;</span>)</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Each &#39;X&#39; value is is set and corresponding hyper paramaters are stated</span></span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_97f3832037ff4c7ca88e16be689f15e1/9502fe78243377fdd896c180163c15aa99700786.png" /></p>
+</div>
+</div>
+<div id="1980d6c3" class="cell code" data-execution_count="1298">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co">#References;</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="co">#[1]: “Normalize A Column In Pandas,” GeeksforGeeks, Dec. 09, 2020. https://www.geeksforgeeks.org/normalize-a-column-in-pandas/</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="co">#[2]: “Chart visualization — pandas 2.2.1 documentation,” pandas.pydata.org. https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visualization-radviz (accessed Mar. 01, 2024).</span></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a><span class="co">#[3]: Neural Networks Lab 2 jpyn</span></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="co">#[4]: V. Trevisan, “Interpreting ROC Curve and ROC AUC for Classification Evaluation,” Medium, Mar. 25, 2022. https://towardsdatascience.com/interpreting-roc-curve-and-roc-auc-for-classification-evaluation-28ec3983f077</span></span></code></pre></div>
+</div>
+</body>
+</html>
